@@ -1,4 +1,4 @@
-resource "aws_subnet" "pub_sub_01" {
+resource "aws_subnet" "subnet_jenkins" {
   vpc_id     = "aws_vpc.main.id"
   cidr_block = "10.0.0.0/24"
 
